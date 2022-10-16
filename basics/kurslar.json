@@ -1,0 +1,107 @@
+[
+  {
+    "kurs_resmi": "https://img-c.udemycdn.com/course/100x100/1258436_2dc3_4.jpg",
+    "kurs_baslik": "Komple Uygulamal\u0131 Web Geli\u015ftirme E\u011fitimi",
+    "kurs_a\u00e7\u0131qlama": "S\u0131f\u0131rdan ileri seviyeye 'Web Geli\u015ftirme': Html, Css, Sass, Flexbox, Bootstrap, Javascript, Angular, JQuery, Asp.Net Mvc&Core Mvc",
+    "udemy_link": "https://www.udemy.com/course/komple-web-developer-kursu/?couponCode=07AG2022",
+    "sayt_link": "https://www.sadikturan.com/komple-web-gelistirme-kursu"
+  },
+  {
+    "kurs_resmi": "https://img-c.udemycdn.com/course/100x100/2463492_8344_3.jpg",
+    "kurs_baslik": "Python ile S\u0131f\u0131rdan \u0130leri Seviye Python Programlama",
+    "kurs_a\u00e7\u0131qlama": "S\u0131f\u0131rdan \u0130leri Seviye Python Dersleri.Veritaban\u0131,Veri Analizi,Bot Yaz\u0131m\u0131,Web Geli\u015ftirme(Django)",
+    "udemy_link": "https://www.udemy.com/course/python-dersleri/?couponCode=07AG2022",
+    "sayt_link": "https://www.sadikturan.com/python-dersleri"
+  },
+  {
+    "kurs_resmi": "https://img-c.udemycdn.com/course/240x135/4301499_60fc.jpg",
+    "kurs_baslik": "Python Django ile S\u0131f\u0131rdan \u0130leri Seviye Web Geli\u015ftirme",
+    "kurs_a\u00e7\u0131qlama": "Python django ile s\u0131f\u0131rdan ileri seviye dinamik web uygulamas\u0131 geli\u015ftirmeyi \u00f6\u011fren.",
+    "udemy_link": "https://www.udemy.com/course/python-django-dersleri/?couponCode=07AG2022",
+    "sayt_link": "https://www.sadikturan.com/python-django-dersleri"
+  },
+  {
+    "kurs_resmi": "https://img-c.udemycdn.com/course/100x100/1662526_fc1c_3.jpg",
+    "kurs_baslik": "S\u0131f\u0131rdan \u0130leri Seviye Modern Javascript Dersleri ES7+",
+    "kurs_a\u00e7\u0131qlama": "Modern javascript dersleri ile (ES6 & ES7+) Nodejs, Angular, React ve VueJs i\u00e7in sa\u011flam bir temel olu\u015fturun.",
+    "udemy_link": "https://www.udemy.com/course/modern-javascript-kursu/?couponCode=07AG2022",
+    "sayt_link": "https://www.sadikturan.com/javascript-dersleri"
+  },
+  {
+    "kurs_resmi": "https://img-c.udemycdn.com/course/240x135/1944162_74f2_3.jpg",
+    "kurs_baslik": "Nodejs Dersleri: Ba\u015ftan Sona FullStack Web Geli\u015ftirme",
+    "kurs_a\u00e7\u0131qlama": "S\u0131f\u0131rdan ileri seviyeye 'Web Geli\u015ftirme': Front-end (HTML, CSS, Javascript,Bootstrap) & Back-end (NodeJs)",
+    "udemy_link": "https://www.udemy.com/course/komple-web-gelistirme-kursu-nodejs/?couponCode=07AG2022",
+    "sayt_link": "https://www.sadikturan.com/nodejs-dersleri"
+  },
+  {
+    "kurs_resmi": "https://img-c.udemycdn.com/course/100x100/3366564_2236_5.jpg",
+    "kurs_baslik": "S\u0131f\u0131rdan Uygulamal\u0131 React Geli\u015ftirme: Hooks, Redux & Firebase",
+    "kurs_a\u00e7\u0131qlama": "En pop\u00fcler frontend k\u00fct\u00fcphanesi React'i ba\u015ftan sona uygulamal\u0131 projelerle \u00f6\u011fren. Hooks, Redux, Webpack, Firebase ve Fazlas\u0131.",
+    "udemy_link": "https://www.udemy.com/course/react-dersleri/?couponCode=07AG2022",
+    "sayt_link": "https://www.sadikturan.com/react-dersleri"
+  },
+  {
+    "kurs_resmi": "https://img-c.udemycdn.com/course/100x100/2363350_4d3d_5.jpg",
+    "kurs_baslik": "Angular 12 ile S\u0131f\u0131rdan \u0130leri Seviye Web Geli\u015ftirme",
+    "kurs_a\u00e7\u0131qlama": "En pop\u00fcler front-end framework'\u00fc Angular '\u0131 s\u0131f\u0131rdan en ileri seviye kadar \u00f6\u011frenin.",
+    "udemy_link": "https://www.udemy.com/course/angular-dersleri/?couponCode=07AG2022",
+    "sayt_link": "https://www.sadikturan.com/angular-dersleri"
+  },
+  {
+    "kurs_resmi": "https://img-c.udemycdn.com/course/100x100/1440660_b7a4_3.jpg",
+    "kurs_baslik": "Asp.Net Core Mvc ile S\u0131f\u0131rdan \u0130leri Seviye Web Programlama",
+    "kurs_a\u00e7\u0131qlama": "Asp.net core dersleri ile s\u0131f\u0131rdan ileri seviyeye uygulamal\u0131 projelerle dinamik web uygulamalar\u0131 geli\u015ftirebilirsiniz.",
+    "udemy_link": "https://www.udemy.com/course/asp-net-core-dersleri/?couponCode=07AG2022",
+    "sayt_link": "https://www.sadikturan.com/asp-net-core-dersleri"
+  },
+  {
+    "kurs_resmi": "https://img-c.udemycdn.com/course/100x100/3952174_5d3a.jpg",
+    "kurs_baslik": "Php ile S\u0131f\u0131rdan \u0130leri Seviye Web Programlama Kursu",
+    "kurs_a\u00e7\u0131qlama": "S\u0131f\u0131rdan php dersleri ile dinamik php uygulamalar\u0131 geli\u015ftirebilirsin.",
+    "udemy_link": "https://www.udemy.com/course/php-dersleri/?couponCode=07AG2022",
+    "sayt_link": "https://www.sadikturan.com/php-dersleri"
+  },
+  {
+    "kurs_resmi": "https://img-c.udemycdn.com/course/100x100/2349954_d803_2.jpg",
+    "kurs_baslik": "E-Ticaret Kursu: Katmanl\u0131 Mimari ile Core Mvc Dersleri",
+    "kurs_a\u00e7\u0131qlama": "Ba\u015ftan Sona Core Mvc Dersleri ile Kendi E-Ticaret Siteni Mimari Bak\u0131\u015f A\u00e7\u0131s\u0131yla Haz\u0131rla.",
+    "udemy_link": "https://www.udemy.com/course/aspnet-core-mvc-kursu/?couponCode=07AG2022",
+    "sayt_link": "https://www.sadikturan.com/katmanli-mimari-eticaret-kursu-asp-net-core-mvc"
+  },
+  {
+    "kurs_resmi": "https://img-c.udemycdn.com/course/100x100/3118920_55f8_3.jpg",
+    "kurs_baslik": ".Net Core Web Api & Angular ile Proje Geli\u015ftirme Kursu",
+    "kurs_a\u00e7\u0131qlama": "S\u0131f\u0131rdan asp.net core web api ve angular 9 kullanarak ba\u015ftan sona proje geli\u015ftiyoruz.",
+    "udemy_link": "https://www.udemy.com/course/aspnet-core-web-api-angular-dersleri/?couponCode=07AG2022",
+    "sayt_link": "https://www.sadikturan.com/aspnet-core-web-api-angular-dersleri"
+  },
+  {
+    "kurs_resmi": "https://img-c.udemycdn.com/course/100x100/2624596_8d26.jpg",
+    "kurs_baslik": "Mobil Uygulama Kursu: Xamarin ile Android ve IOS Geli\u015ftirme",
+    "kurs_a\u00e7\u0131qlama": "C# programlama yetene\u011fini Xamarin ile birle\u015ftirerek Cross Platform Native Android ve IOS uygulamas\u0131 geli\u015ftirebilirsin.",
+    "udemy_link": "https://www.udemy.com/course/xamarin-dersleri/?couponCode=07AG2022",
+    "sayt_link": "https://www.sadikturan.com/xamarin-dersleri"
+  },
+  {
+    "kurs_resmi": "https://img-c.udemycdn.com/course/100x100/2907528_f51f_2.jpg",
+    "kurs_baslik": "S\u0131f\u0131rdan Uygulamal\u0131 SQL Veri Taban\u0131 Dersleri: MySQL & MsSQL",
+    "kurs_a\u00e7\u0131qlama": "En temelden ba\u015flayarak sql veri taban\u0131 tasar\u0131m\u0131n\u0131 profesyonel d\u00fczeyde \u00f6\u011frenerek etkin sql sorgular\u0131 yazabilirsin.",
+    "udemy_link": "https://www.udemy.com/course/sql-dersleri/?couponCode=07AG2022",
+    "sayt_link": "https://www.sadikturan.com/sql-dersleri"
+  },
+  {
+    "kurs_resmi": "https://img-c.udemycdn.com/course/100x100/3080074_fc14_2.jpg",
+    "kurs_baslik": "Bootstrap 5 ile Premium Web Tasar\u0131m Proje Geli\u015ftirme Kursu",
+    "kurs_a\u00e7\u0131qlama": "Bootstrap 5 k\u00fct\u00fcphanesini ba\u015ftan sona \u00f6\u011frenerek k\u0131sa zamanda premium web tasar\u0131mlar\u0131n\u0131 kolayl\u0131kla yapabilirsin.",
+    "udemy_link": "https://www.udemy.com/course/bootstrap-dersleri/?couponCode=07AG2022",
+    "sayt_link": "https://www.sadikturan.com/bootstrap-dersleri"
+  },
+  {
+    "kurs_resmi": "https://img-c.udemycdn.com/course/100x100/1397898_cbbb_3.jpg",
+    "kurs_baslik": "C# Kursu: Yeni Ba\u015flayanlar i\u00e7in C# Programlama Dersleri",
+    "kurs_a\u00e7\u0131qlama": "S\u0131f\u0131rdan programlama mant\u0131\u011f\u0131 dahil bilmeniz gereken en temel C# programlama derslerini k\u0131sa zamanda \u00f6\u011frenin!",
+    "udemy_link": "https://www.udemy.com/course/komple-uygulamali-programlama-egitimi-yeni-baslayanlar/?couponCode=07AG2022",
+    "sayt_link": "https://www.sadikturan.com/csharp-dersleri"
+  }
+]
