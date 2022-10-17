@@ -22,10 +22,12 @@ def get_products():
     sql = "SELECT MIN(price) FROM products WHERE name LIKE '%Samsung%' ORDER BY id DESC"
     sql = "SELECT MIN(price) FROM products WHERE name LIKE '%Samsung%' ORDER BY id DESC"
     sql = "SELECT name FROM products WHERE price=(SELECT MAX(price) from products)"
-
+    sql = "SELECT * FROM products INNER JOIN categories on categories.id=products.category_id"
+    sql = "SELECT * FROM products INNER JOIN categories on categories.id=products.category_id WHERE categories.name='Laptop'"
     mycursor.execute(sql)
-    products = mycursor.fetchone()
-    print(products)
+    products = mycursor.fetchall()
+    for product in products:
+        print(product)
 
 
 get_products()
