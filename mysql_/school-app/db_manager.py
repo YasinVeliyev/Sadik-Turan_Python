@@ -45,6 +45,7 @@ class Db_Manager:
         sql = "UPDATE  Student SET name=%s, student_number=%s, surname=%s, birth_date=%s, gender=%s,class_id=%s WHERE id=%s;"
         self.cursor.execute(sql, (*student,))
         self.connection.commit()
+        print("Öğrenci güncellendi")
 
     def delete_student(self, id: int):
         sql = "DELETE FROM Student WHERE id=%s;"

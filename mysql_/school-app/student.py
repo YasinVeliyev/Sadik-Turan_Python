@@ -20,12 +20,10 @@ class Student:
         return self
 
     def __next__(self):
-
         if self.__index < len(self.__tuple):
             result = self.__tuple[self.__index]
-            if not result:
-                raise StopIteration
             self.__index += 1
-            return result
-        else:
+            if result:
+                return result
             raise StopIteration
+        raise StopIteration
