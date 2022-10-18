@@ -28,11 +28,12 @@ class App:
         self.display_students()
         id = int(input("Öğrenic İd? "))
         student = self.db.get_student_by_id(id)
-        student.class_id = int(input(f"Sinif? ")) or student.class_id
+        student.class_id = int(input(f"Sinif? ") or student.class_id)
         student.student_number = input("Öğrenci Numarası? ") or student.student_number
         student.name = input("İsim? ") or student.name
         student.surname = input("Soyad? ") or student.surname
-        student.birthdate = datetime.date.fromisoformat(input("Doğum tarihi (Yıl-ay-gün)? ")) or student.birthdate
+        student.birthdate = datetime.date.fromisoformat(
+            input("Doğum tarihi (Yıl-ay-gün)? ") or student.birthdate.strftime("%Y-%m-%d"))
         student.gender = input("Cinsiyet (E/K)? ") or student.gender
         self.db.edit_student(student)
 
@@ -55,7 +56,7 @@ class App:
         print("=" * 30)
 
     def init_app(self):
-        msg = "1-Öğrenci Listesi\n2-Öğrenci ekle\n3-Öğrenci Güncelle\n4-Öğrenci Sil\5-Öğretmen Ekle\n6-Sınıflara Göre Dersler\n7-Çıkış(E\Ç)"
+        msg = "1-Öğrenci Listesi\n2-Öğrenci ekle\n3-Öğrenci Güncelle\n4-Öğrenci Sil\n5-Öğretmen Ekle\n6-Sınıflara Göre Dersler\n7-Çıkış(E\Ç)"
         while True:
             print(msg)
             islem = input("Seçim: ")

@@ -37,17 +37,13 @@ class Db_Manager:
             print("Error: ", err)
 
     def add_student(self, student: Student):
-
         sql = "INSERT INTO Student(name, student_number, surname, birth_date, gender,class_id) VALUES(%s,%s,%s,%s,%s,%s)"
-        self.cursor.execute(sql, (
-            student.name, student.student_number, student.surname, student.birthdate, student.gender, student.class_id))
+        self.cursor.execute(sql, (*student,))
         self.connection.commit()
 
     def edit_student(self, student: Student):
         sql = "UPDATE  Student SET name=%s, student_number=%s, surname=%s, birth_date=%s, gender=%s,class_id=%s WHERE id=%s;"
-        self.cursor.execute(sql, (
-            student.name, student.student_number, student.surname, student.birthdate, student.gender, student.class_id,
-            student.id))
+        self.cursor.execute(sql, (*student,))
         self.connection.commit()
 
     def delete_student(self, id: int):
@@ -59,7 +55,10 @@ class Db_Manager:
         pass
 
     def add_teacher(self, teacher: Teacher):
-        pass
+        sql = "INSERT INTO Teacher(branch, name, surname, birthdate, gender) VALUES(%s,%s,%s,%s,%s)"
+        # self.cursor.execute(sql, (
+        #     student.name, student.student_number, student.surname, student.birthdate, student.gender, student.class_id))
+        # self.connection.commit()
 
     def edit_teacher(self, teacher):
         pass
@@ -91,11 +90,12 @@ class Db_Manager:
         print("Database əlaqəsi kəsildi")
 
 
-if __name__ == "_main":
+if __name__ == "__main__":
     manager = Db_Manager()
-    student = manager.get_student_by_id(1)
-    students = manager.get_students_by_class_id(1)
+    # student = manager.get_student_by_id(1)
+    # students = manager.get_students_by_class_id(1)
     # print(*[student.__dict__ for student in students], sep="\n")
-    # newstudent = Student(8, "Yasin", 356, "Veliyev", "1992-12-17", "E", 2)
-    # manager.add_student(newstudent)
-    manager.edit_student(Student(6, "Alı", 312, "Ceng", "1992-12-17", "E", 2))
+    newstudent = Student(None, "Asim", 6589, "Veliyev", "1985-12-17", "E", 3)
+    # print(next(newstudent))
+    manager.add_student(newstudent)
+    # manager.edit_student(Student(6, "Alı", 312, "Ceng", "1992-12-17", "E", 2))
