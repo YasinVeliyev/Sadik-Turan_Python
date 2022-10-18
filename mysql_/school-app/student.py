@@ -1,5 +1,5 @@
 class Student:
-    def __init__(self, id: int, name: str, student_number: str, surname: str, birthdate: str, gender: str,
+    def __init__(self, id: int | None, name: str, student_number: str, surname: str, birthdate: str, gender: str,
                  class_id: int):
         self.student_number = student_number
         self.name = name

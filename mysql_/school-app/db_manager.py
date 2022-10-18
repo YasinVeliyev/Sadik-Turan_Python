@@ -50,6 +50,11 @@ class Db_Manager:
             student.id))
         self.connection.commit()
 
+    def delete_student(self, id: int):
+        sql = "DELETE FROM Student WHERE id=%s;"
+        self.cursor.execute(sql, (id,))
+        self.connection.commit()
+
     def add_or_edit_student(self, student: Student):
         pass
 
@@ -58,6 +63,15 @@ class Db_Manager:
 
     def edit_teacher(self, teacher):
         pass
+
+    def get_classes(self):
+        sql = "SELECT * FROM Class"
+        self.cursor.execute(sql)
+        try:
+            classes = self.cursor.fetchall()
+            return Class.create_class(classes)
+        except Exception as err:
+            print("Error: ", err)
 
     def add_class(self, class_: Class):
         pass
@@ -72,14 +86,16 @@ class Db_Manager:
         pass
 
     def __del__(self):
+        self.connection.commit()
         self.connection.close()
         print("Database əlaqəsi kəsildi")
 
 
-manager = Db_Manager()
-student = manager.get_student_by_id(1)
-students = manager.get_students_by_class_id(1)
-# print(*[student.__dict__ for student in students], sep="\n")
-# newstudent = Student(8, "Yasin", 356, "Veliyev", "1992-12-17", "E", 2)
-# manager.add_student(newstudent)
-manager.edit_student(Student(6, "Alı", 312, "Ceng", "1992-12-17", "E", 2))
+if __name__ == "_main":
+    manager = Db_Manager()
+    student = manager.get_student_by_id(1)
+    students = manager.get_students_by_class_id(1)
+    # print(*[student.__dict__ for student in students], sep="\n")
+    # newstudent = Student(8, "Yasin", 356, "Veliyev", "1992-12-17", "E", 2)
+    # manager.add_student(newstudent)
+    manager.edit_student(Student(6, "Alı", 312, "Ceng", "1992-12-17", "E", 2))
