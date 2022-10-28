@@ -5,3 +5,4 @@ venv
 *.log
 *.csv
 *.idea
+*__pycache__
