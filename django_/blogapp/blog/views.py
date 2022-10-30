@@ -1,6 +1,6 @@
+from unicodedata import category
 from django.shortcuts import render
-from blog.models import Blog
-
+from blog.models import Blog, Category
 data = {
     "blogs": [
         {
@@ -34,15 +34,23 @@ data = {
 
 
 def index(request):
-    context = {"blogs": Blog.objects.all(), "title": "Home"}
+    context = {"blogs": Blog.objects.all(), "title": "Home",
+               "categories": Category.objects.all()}
     return render(request, "blog/index.html", context)
 
 
 def get_blogs(request):
-    context = {"blogs": Blog.objects.all(), "title": "Blogs"}
+    context = {"blogs": Blog.objects.all(), "title": "Blogs",
+               "categories": Category.objects.all()}
     return render(request, "blog/blogs.html", context)
 
 
 def get_blog_details(request, id: int):
     blog = Blog.objects.get(id=id)
     return render(request, "blog/blog_details.html", {"blog": blog, "title": blog.title})
+
+
+def get_blogs_by_category(request, slug):
+    context = {"blogs": Blog.objects.filter(category__slug=slug), "title": "Kurslar",
+               "categories": Category.objects.all(), "current_category": slug}
+    return render(request, "blog/blogs.html", context)

@@ -6,6 +6,7 @@ from .models import Blog, Category
 class BlogAdmin(admin.ModelAdmin):
     list_display = ("title", "is_active")
     list_editable = ("is_active",)
+    list_filter = ("category",)
 
 
 class CategoryAdmin(admin.ModelAdmin):
